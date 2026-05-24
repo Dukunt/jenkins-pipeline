@@ -24,7 +24,7 @@ pipeline {
             steps{
                 script {
                     sh """
-                     echo "Deploy phase completed"
+                     echo "Deploy    phase completed"
                     """
                 }
             }

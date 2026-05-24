@@ -6,7 +6,7 @@ pipeline {
                 script {
                     sh """
                      echo "Build phase completed"
-                     echo " Webhook hasbeen added"
+                     echo " Webhook hasbeen added and push"
                     """
                 }
             }
@@ -17,7 +17,7 @@ pipeline {
                 script {
                     sh """
                      echo "test phase completed"
-                     echo " Webhook hasbeen added"
+                     echo " Webhook hasbeen added and push"
                     """
                 }
             }
@@ -28,7 +28,7 @@ pipeline {
                 script {
                     sh """
                      echo "Deploy    phase completed"
-                     echo " Webhook hasbeen added"
+                     echo " Webhook hasbeen added and push"
                     """
                 }
             }

@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    on "push"
     stages {
         stage('build'){
             steps{

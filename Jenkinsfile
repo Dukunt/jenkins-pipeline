@@ -1,8 +1,5 @@
 pipeline {
     agent any
-     triggers {
-        githubPush() // Enables the GitHub push event trigger
-    }
     
     stages {
         stage('build'){
